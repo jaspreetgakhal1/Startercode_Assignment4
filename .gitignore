@@ -1,0 +1,21 @@
+# Python virtual environments ( Preventing local Python dependencies from being tracked in Git )
+.venv/
+.venv-wheel/
+.venv-sdist/
+
+# Python cache and bytecode (Auto generated python files)
+__pycache__/
+*.pyc
+
+# Testing cache (Excluding pytest cache files )
+.pytest_cache/
+
+# Generated packaging files (Excluding build files and package metadata)
+build/
+*.egg-info/
+
+# Local editor settings (Excluding local VS Code settings etc exclude them from Git)
+.vscode/
+
+
+
